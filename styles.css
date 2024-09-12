@@ -55,6 +55,18 @@ button:hover {
   height: 40px;
 }
 
+.navbar-nav .nav-item .nav-link.dropdown-toggle {
+  color: white !important;
+}
+
+.navbar-nav .dropdown-menu .dropdown-item {
+  color: black !important;
+}
+
+.navbar-nav .dropdown-menu .dropdown-item:hover {
+  color: #007bff !important;
+}
+
 .icons img {
   height: 30px;
 }
