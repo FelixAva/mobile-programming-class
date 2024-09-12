@@ -1,37 +1,83 @@
 #logo {
-    height: 40px;
+  height: 40px;
 }
 
 #small-logo {
-    height: 26px;
+  height: 26px;
 }
 
 button {
-    align-items: center;
-    border-radius: 15px;
-    padding: 10px 8px;
-    border: 2px solid #7a7a7a;
-    background: none;
+  align-items: center;
+  border-radius: 15px;
+  padding: 10px 8px;
+  border: 2px solid #7a7a7a;
+  background: none;
 }
 
 button:hover {
-    background-color: #bebebe;
+  background-color: #bebebe;
 }
 
 .user {
-    border-style: none;
+  border-style: none;
 }
 
+.navbar-nav .nav-item .nav-link {
+  color: black !important; /* Usa !important para sobrescribir cualquier estilo previo */
+}
+
+.icons img{
+  height: 30px;
+}
 
 .fixed-menu {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1000;
-    background-color: white; /* Ensure the menu has a background */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds the shadow effect */
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: white; /* Ensure the menu has a background */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds the shadow effect */
 }
 
+.top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.top .icons,
+.top .navbar-brand {
+  margin: 0 15px;
+}
+
+.navbar-brand img {
+  height: 40px;
+}
+
+.icons img {
+  height: 30px;
+}
+
+button {
+  align-items: center;
+  border-radius: 15px;
+  padding: 10px 8px;
+  border: 2px solid #7a7a7a;
+  background: none;
+}
+
+button:hover {
+  background-color: #bebebe;
+}
+
+.user {
+  border-style: none;
+}
+
+main {
+  margin-top: 130px;
+}
 
 .new {
   border-style: none;
