@@ -1,0 +1,123 @@
+#logo {
+    height: 40px;
+}
+
+#small-logo {
+    height: 26px;
+}
+
+button {
+    align-items: center;
+    border-radius: 15px;
+    padding: 10px 8px;
+    border: 2px solid #7a7a7a;
+    background: none;
+}
+
+button:hover {
+    background-color: #bebebe;
+}
+
+.user {
+    border-style: none;
+}
+
+
+.fixed-menu {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: white; /* Ensure the menu has a background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds the shadow effect */
+}
+
+
+.new {
+  border-style: none;
+
+  border-bottom-width: 1px;
+  border-bottom-color: rgba(0, 0, 0, 0.3);
+  border-bottom-style: solid;
+
+  border-radius: 5px;
+}
+
+.new:hover {
+  box-shadow: 0 0 50px 0.5px rgba(0, 0, 0, 0.3);
+  width: calc(100% + 10px);
+  height: 100%;
+
+  cursor: pointer;
+}
+
+/* footer */
+footer {
+  color: white;
+}
+a {
+  color: rgb(216, 213, 213) !important; /* Forza a que los enlaces sean negros */
+}
+
+a:hover {
+  color: rgb(148, 146, 146) !important; /* Mantiene el color negro al hacer hover */
+}
+
+.first {
+  margin-bottom: 20px;
+}
+
+.first ul {
+  list-style: none;
+  padding: 0;
+}
+
+.first ul li {
+  margin-bottom: 5px;
+}
+
+.first ul li.title {
+  font-weight: 600;
+}
+
+.first ul li a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.first ul li a:hover {
+  text-decoration: underline;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px 10px;
+}
+
+.flex-item {
+  flex: 1;
+  min-width: 150px;
+}
+
+@media (max-width: 767.98px) {
+  .first ul li:not(.title) {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .flex-item {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .first ul li.title {
+    font-weight: bold;
+  }
+
+  .first ul li a {
+    color: inherit;
+  }
+}
